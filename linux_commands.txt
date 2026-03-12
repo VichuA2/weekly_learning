@@ -2,6 +2,7 @@
 
 ls
 ls -l 
+ls -r
 ls -al
 lsof
 pwd
@@ -54,8 +55,19 @@ neofetch
 netstat -at
 netstat -a
 nslookup name ( nslookup google.com)
-
-
-
-
+curl options url
+awk 
+env -i , -v
+shred newfile.txt
+wget
+curl link
+zip filename.zip filename
+unzip filename.zip
+find
+resolvectl status
+tr ( cat cba.txt | tr "[A-Z]" "[a-z]"
+htop
+kill -9 97 ( kill -signal pid )
+df -h/df
+mount
 
