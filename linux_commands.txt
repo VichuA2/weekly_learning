@@ -1,7 +1,5 @@
-# Linux Commands 
-
 ls
-ls -l 
+ls -l
 ls -r
 ls -al
 lsof
@@ -10,7 +8,7 @@ cd
 cd ..
 mkdir
 rmdir
-rm 
+rm
 mv
 touch
 cat
@@ -28,36 +26,43 @@ sudo passwd vichu
 sudo userdel vichu
 sudo groupadd team
 sudo groupdel team
-cp -n , -u , r
+cp -n
+cp -u
+cp -r
 grep cat sample.txt
 sort temp.txt
 sort -r temp.txt
 chown
-chmod - 777 (4-r,2-w,1-e,0-n)
+chmod 777
 id
-tar ( tar -xvf tarfilename , tar -cvf filename source )
+tar -xvf tarfilename
+tar -cvf filename source
 cut
 sed 's/ball/call/' sad.txt
 uniq hello.txt
 watch -d free -m
 eval --help
-history / history -n
-dd if = /dev/hda = /dev/hdb
+history
+history -n
+dd if=/dev/hda of=/dev/hdb
 ip
 ssh masters -ip
 ssh slave -ip
 ssh username@ip
-ssh -keygen
-ssh -keygen -t rsa
-ip config -a -c
-ip address / ip link
+ssh-keygen
+ssh-keygen -t rsa
+ip -a
+ip -c
+ip address
+ip link
 neofetch
 netstat -at
 netstat -a
-nslookup name ( nslookup google.com)
+nslookup google.com
 curl options url
-awk 
-env -i , -v
+awk
+env -i
+env -v
 shred newfile.txt
 wget
 curl link
@@ -65,9 +70,11 @@ zip filename.zip filename
 unzip filename.zip
 find
 resolvectl status
-tr ( cat cba.txt | tr "[A-Z]" "[a-z]"
+tr
+cat cba.txt | tr "[A-Z]" "[a-z]"
 htop
-kill -9 97 ( kill -signal pid )
-df -h/df
-mount
-
+kill -9 97
+kill -signal pid
+df -h
+df
+mount Sonnet 4.6
