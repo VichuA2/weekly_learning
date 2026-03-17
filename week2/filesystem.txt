@@ -1,0 +1,32 @@
+ls /                          List all top-level directories
+ls -la /etc                   List all files including hidden ones with permissions in /etc
+ls                            List files in current directory
+ls -l                         Long format - permissions, owner, size, date
+ls -r                         List in reverse order
+ls -al                        All files including hidden, long format
+pwd                           Print current working directory
+cd /var/log                   Navigate to a specific directory
+cd                            Go to home directory
+cd ..                         Go one level up
+mkdir                         Create a new directory
+rmdir                         Remove an empty directory
+rm                            Remove files or directories
+mv                            Move or rename files
+touch                         Create empty file or update timestamp
+cat                           Read and display file contents
+echo                          Print text or write to a file
+clear                         Clear terminal screen
+nano                          Beginner-friendly terminal text editor
+vi                            Classic terminal editor - available on every Linux system
+vim                           Improved vi - most used editor in DevOps
+lsof                          List open files - also used in process and network topics
+tree /etc -L 1                Show directory structure 1 level deep (install: apt install tree)
+df -h                         Show disk space usage in human-readable format
+du -sh /var/log               Show size of a specific directory
+lsblk                         List all block devices (disks and partitions)
+mount | grep sda              Show what is mounted and where
+findmnt                       Display all mount points in a tree view
+find / -name "*.conf" 2>/dev/null   Find all .conf files from root, suppress permission errors
+locate nginx.conf             Fast file search using a pre-built index (needs mlocate)
+which python3                 Show full path of a command binary
+file /bin/bash                Show file type - ELF binary, text, symlink etc

@@ -1,0 +1,9 @@
+
+cat /etc/os-release        Full distro details - name, version, ID, ID_LIKE
+lsb_release -a             Human-readable distro info - Distributor, Release, Codename
+neofetch                   Visual system info - distro, kernel, uptime, CPU, RAM
+hostnamectl                OS + kernel + architecture in one shot
+cat /etc/issue             Quick distro name shown at login prompt
+uname -m                   CPU architecture - x86_64, aarch64, i686
+apt list --installed       List all installed packages (Ubuntu/Debian)
+

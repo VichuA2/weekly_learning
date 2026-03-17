@@ -1,0 +1,28 @@
+sudo useradd username                     Create a new user (no home dir)
+sudo useradd -m username                  Create user with home directory
+sudo useradd -m -s /bin/bash username     Create user with home dir and bash shell
+sudo passwd username                      Set or change password for a user
+sudo usermod -aG sudo username            Add user to sudo group (admin privileges)
+sudo usermod -l newname oldname           Rename a user
+sudo usermod -d /home/newdir username     Change home directory
+sudo usermod -s /bin/bash username        Change default shell
+sudo usermod -u 1050 username             Change UID of a user
+sudo usermod -e 2025-12-21 username       Set account expiry date
+sudo userdel username                     Delete user (keeps home directory)
+sudo userdel -r username                  Delete user AND home directory
+sudo groupadd groupname                   Create a new group
+sudo groupdel groupname                   Delete a group
+sudo gpasswd -a username groupname        Add user to a group
+sudo gpasswd -d username groupname        Remove user from a group
+id username                               Show UID, GID and all groups
+whoami                                    Print current logged-in username
+who                                       Show all currently logged-in users
+w                                         Show logged-in users and their activity
+last                                      Show login history of all users
+groups username                           List all groups a user belongs to
+cat /etc/passwd | grep username           View user entry in passwd file
+su - username                             Switch to another user (loads their env)
+sudo bash                                 Root shell — keeps your environment
+sudo -i                                   Root login shell — loads root environment
+exit                                      Exit back to previous user
+

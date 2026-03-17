@@ -1,0 +1,13 @@
+uname                     Basic kernel name
+uname -r                  Kernel release version
+uname -a                  All kernel info
+cat /proc/version         Kernel version from proc
+lsmod                     List loaded modules
+modinfo <module>          Module details
+modprobe <module>         Load module + dependencies
+modprobe -r <module>      Unload module cleanly
+rmmod <module>            Force remove module
+dmesg | tail -20          Last 20 kernel messages
+dmesg | grep -i           error Filter kernel errors
+cat /proc/cpuinfo         CPU info from kernel
+cat /proc/meminfo         Memory info from kernel
